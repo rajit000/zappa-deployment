@@ -1,0 +1,10 @@
+{
+    "lambda1": {
+        "aws_region": "ap-south-1",
+        "django_settings": "myproject.settings",
+        "profile_name": "default",
+        "project_name": "ormn",
+        "runtime": "python3.11",
+        "s3_bucket": "zappa-lr41bc27t"
+    }
+}
