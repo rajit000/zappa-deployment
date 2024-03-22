@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'localdb',
         'USER': 'admin',
         'PASSWORD': 'admin123',
-        'HOST': 'database-1.cbii2ywq83bh.ap-southeast-1.rds.amazonaws.com',
+        'HOST': 'database-1.chw8eomwmjjs.ap-south-1.rds.amazonaws.com',
         'PORT': '3306',
     },
     'mydb': {
@@ -96,7 +96,7 @@ DATABASES = {
         'NAME': 'localdb',
         'USER': 'admin',
         'PASSWORD': 'admin123',
-        'HOST': 'database-1.cbii2ywq83bh.ap-southeast-1.rds.amazonaws.com',
+        'HOST': 'database-1.chw8eomwmjjs.ap-south-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
@@ -126,7 +126,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'GMT'
 
 USE_I18N = True
 

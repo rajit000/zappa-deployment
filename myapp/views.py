@@ -161,8 +161,7 @@ def StudentDetailsInsert_f(request):
                 'UpdatedAt': datetime.now(),
                 'UpdatedBy': 'system'
             }
-            
-            Data = StudentDetailInsert_q(data.values())
+            Data = StudentDetailInsert_q(list(data.values()))
             if Data:
                 json_data = {
                     'status_code': 200,
@@ -223,7 +222,7 @@ def StudentDetailsUpdate_f(request):
                 'StudentUUID' : serializer.data['StudentUUID']
             }
             
-            Data = StudentDetailsUpdate_q(data.values())
+            Data = StudentDetailsUpdate_q(list(data.values()))
             if Data:
                 json_data = {
                     'status_code': 200,
